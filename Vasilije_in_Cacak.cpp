@@ -5,7 +5,8 @@ using namespace std;
 //if sum of 1 to n < x  then NO
 //sum of first k from 1 = min and sum of last k  = max , out of range from min-max is "NO"
 //Find  value = max-x(target)
-//if value >= n then "NO" otherwise "YES"
+//Calculate deductible i.e the total that can be deduced from max
+//if deducible >=value then "YES" otherwise "NO"
 
 int main(){
     int test;
